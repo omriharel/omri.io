@@ -49,3 +49,10 @@ docker run -d -p 6002:8989 \
     -v /home/omri/box/config:/config \
     -v /home/omri/box/files:/files \
     silverwind/droppy
+
+# mail forwarder
+docker run -t -d -p 25:25 \
+    --name mailer \
+    -e SMF_DOMAIN="omri.io" \
+    -e SMF_CONFIG="omri@omri.io:omri.harel.en@gmail.com:icyM@il3r;admin@omri.io:omri.harel.en@gmail.com;no-reply@omri.io:omri.harel.en@gmail.com" \
+    zixia/simple-mail-forwarder
