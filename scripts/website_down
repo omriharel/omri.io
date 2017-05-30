@@ -1,0 +1,5 @@
+docker stop nginx-proxy && docker rm nginx-proxy
+docker stop letsencrypt && docker rm letsencrypt
+docker stop landing && docker rm landing
+docker stop ghost && docker rm ghost
+docker stop droppy && docker rm droppy

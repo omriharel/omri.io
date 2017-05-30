@@ -1,0 +1,1635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet"
+          href="https://bootswatch.com/superhero/bootstrap.min.css">
+
+    <style type="text/css">
+    .container-fluid {
+        padding-left: 40px;
+        padding-right: 40px;
+        line-height: 1.2;
+    }
+
+    .table-ziggy>tbody>tr>td {
+        line-height: 1.3;
+        color: #B8C5D2;
+        white-space: nowrap;
+        vertical-align: top;
+    }
+
+    .table-ziggy>tbody>tr>td.cell-severity {
+    }
+
+    .table-ziggy>tbody>tr>td>span.label-severity {
+        display: block;
+        width: 100%;
+    }
+
+    .table-ziggy>tbody>tr>td.cell-when {
+    }
+
+    .table-ziggy>tbody>tr>td.cell-who {
+        color: #BBBFCA;
+    }
+
+    .table-ziggy>tbody>tr>td.cell-what {
+        color: #DADEE2;
+    }
+
+    .table-ziggy>tbody>tr>td.cell-more {
+        width: 100%;
+    }
+
+    .table-ziggy>tbody>tr>td.cell-more>span.label-default {
+        font-weight: normal;
+        font-size: 80%;
+        color: #C9D0D6;
+    }
+
+       .table-ziggy>tbody>tr>td.cell-more>button.btn-ziggy {
+        font-size: 80%;
+        font-weight: bold;
+        color: #C9D0D6;
+        background-color: #213140;
+        border-color: #2E5477;
+        padding: 0px 7px 0px 7px;
+        display: inline;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-radius: 0.25em;
+    }
+
+    .table-ziggy>tbody>tr>td.cell-more pre.pre-ziggy {
+        font-size: 7pt;
+        color: #C9D0D6;
+        background-color: #213140;
+        border-color: #2E5477;
+        padding: 4px;
+        margin-top: 5px;
+        margin-bottom: 1px;
+        white-space: pre-line;
+    }
+
+    .table-ziggy>tbody>tr>td.cell-more pre.pre-ziggy>hr.hr-ziggy {
+        margin-top: 2px;
+        margin-bottom:2px;
+        border-color: #2E5477;
+    }
+
+    .table-ziggy>tbody>tr>td.cell-more>span.label-ziggy-purple0 { background-color: #034761; }
+    .table-ziggy>tbody>tr>td.cell-more>span.label-ziggy-purple1 { background-color: #05456B; }
+    .table-ziggy>tbody>tr>td.cell-more>span.label-ziggy-purple2 { background-color: #083B69; }
+    .table-ziggy>tbody>tr>td.cell-more>span.label-ziggy-purple3 { background-color: #0A2E5E; }
+    .table-ziggy>tbody>tr>td.cell-more>span.label-ziggy-blue0 { background-color: #430B5E; }
+    .table-ziggy>tbody>tr>td.cell-more>span.label-ziggy-blue1 { background-color: #410969; }
+    .table-ziggy>tbody>tr>td.cell-more>span.label-ziggy-blue2 { background-color: #39086B; }
+    .table-ziggy>tbody>tr>td.cell-more>span.label-ziggy-blue3 { background-color: #2A0461; }
+    .table-ziggy>tbody>tr>td.cell-more>span.label-ziggy-grey0 { background-color: #4F4D5C; }
+    .table-ziggy>tbody>tr>td.cell-more>span.label-ziggy-grey1 { background-color: #494652; }
+    .table-ziggy>tbody>tr>td.cell-more>span.label-ziggy-grey2 { background-color: #403D45; }
+    .table-ziggy>tbody>tr>td.cell-more>span.label-ziggy-grey3 { background-color: #38363B; }
+    .table-ziggy>tbody>tr>td.cell-more>span.label-ziggy-red0 { background-color: #A53434; }
+    .table-ziggy>tbody>tr>td.cell-more>span.label-ziggy-red1 { background-color: #712E2E; }
+    .table-ziggy>tbody>tr>td.cell-more>span.label-ziggy-red2 { background-color: #691010; }
+    .table-ziggy>tbody>tr>td.cell-more>span.label-ziggy-red3 { background-color: #520404; }
+    
+
+    </style>
+
+    <title>Ziggy Logfile</title>
+</head>
+<body>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col"><h3>Ziggy Logfile - 2016-04-14 20:10:14.074634</h1></div>
+    </div>
+    <div class="row">
+    <div class="col">
+    <table class="table table-condensed table-hover table-ziggy">
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:07.615</td>
+<td class="cell-who">ziggy</td>
+<td class="cell-what">Pulling</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">path=/Users/omrih/iguazio/ziggy</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:07.616</td>
+<td class="cell-who">ziggy</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">command=git&nbsp;pull</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-blue2">cwd=/Users/omrih/iguazio/ziggy</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:09.729</td>
+<td class="cell-who">ziggy</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-grey0">cmd=git&nbsp;pull</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">cwd=/Users/omrih/iguazio/ziggy</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">Already&nbsp;up-to-date.<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:09.730</td>
+<td class="cell-who">ziggy.snapshot_manager</td>
+<td class="cell-what">Loading&nbsp;snapshot</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">snapshot_path=/Users/omrih/iguazio/.ziggy/snapshot.json</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:09.876</td>
+<td class="cell-who">ziggy.task_manager</td>
+<td class="cell-what">Running&nbsp;task</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">task=zebo.workflow</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:09.877</td>
+<td class="cell-who">ziggy.task_manager</td>
+<td class="cell-what">Adding&nbsp;subtasks&nbsp;to&nbsp;display</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-grey0">parent=workflow</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>tasks</b><hr class="hr-ziggy">[<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"args":&nbsp;{},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name":&nbsp;"fork"<br>&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"args":&nbsp;{},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name":&nbsp;"clone"<br>&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"args":&nbsp;{},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name":&nbsp;"configure_remotes"<br>&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"args":&nbsp;{},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name":&nbsp;"update_sources"<br>&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"args":&nbsp;{},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name":&nbsp;"push_sources"<br>&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"args":&nbsp;{},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name":&nbsp;"create_venv"<br>&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"args":&nbsp;{},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name":&nbsp;"update_venv"<br>&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"args":&nbsp;{},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name":&nbsp;"update_npm"<br>&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"args":&nbsp;{},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name":&nbsp;"test"<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>]</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:09.878</td>
+<td class="cell-who">ziggy.task_manager</td>
+<td class="cell-what">Running&nbsp;task</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">task=zebo.workflow.fork</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:09.879</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Checking&nbsp;if&nbsp;fork&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">repo=txEtcd</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:09.879</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Getting</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">url=https://api.github.com/user/repos?type=owner&per_page=100</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:09.899</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Checking&nbsp;if&nbsp;fork&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">repo=gindi</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:09.899</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Getting</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">url=https://api.github.com/user/repos?type=owner&per_page=100</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:09.915</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Checking&nbsp;if&nbsp;fork&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">repo=oreo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:09.915</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Getting</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">url=https://api.github.com/user/repos?type=owner&per_page=100</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:09.933</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Checking&nbsp;if&nbsp;fork&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">repo=zebo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:09.933</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Getting</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">url=https://api.github.com/user/repos?type=owner&per_page=100</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:09.950</td>
+<td class="cell-who">ziggy.task_manager</td>
+<td class="cell-what">Running&nbsp;task</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">task=zeek.update_sources</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:09.950</td>
+<td class="cell-who">ziggy.zeek</td>
+<td class="cell-what">Merging&nbsp;remote&nbsp;branch</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">local_branch=development</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">path=/Users/omrih/iguazio/engine/zeek</span>
+&nbsp;<span class="label label-default label-ziggy-grey2">remotes=['upstream',&nbsp;'origin']</span>
+&nbsp;<span class="label label-default label-ziggy-grey3">fetch=True</span>
+&nbsp;<span class="label label-default label-ziggy-grey0">checkout_local_branch=True</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:09.951</td>
+<td class="cell-who">ziggy.zeek</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">command=git&nbsp;status&nbsp;-s</span>
+&nbsp;<span class="label label-default label-ziggy-red1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-red2">cwd=/Users/omrih/iguazio/engine/zeek</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:09.953</td>
+<td class="cell-who">ziggy.display</td>
+<td class="cell-what">Activating&nbsp;display</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">type=TerminalDisplay</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.031</td>
+<td class="cell-who">ziggy.zeek</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-blue0">cmd=git&nbsp;status&nbsp;-s</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">cwd=/Users/omrih/iguazio/engine/zeek</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.032</td>
+<td class="cell-who">ziggy.zeek</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">command=git&nbsp;remote</span>
+&nbsp;<span class="label label-default label-ziggy-red1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-red2">cwd=/Users/omrih/iguazio/engine/zeek</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.042</td>
+<td class="cell-who">ziggy.zeek</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-purple0">cmd=git&nbsp;remote</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">cwd=/Users/omrih/iguazio/engine/zeek</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">origin<br>simon<br>upstream<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.043</td>
+<td class="cell-who">ziggy.zeek</td>
+<td class="cell-what">Fetching&nbsp;remote</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">path=/Users/omrih/iguazio/engine/zeek</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">name=upstream</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.043</td>
+<td class="cell-who">ziggy.zeek</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">command=git&nbsp;fetch&nbsp;upstream</span>
+&nbsp;<span class="label label-default label-ziggy-red1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-red2">cwd=/Users/omrih/iguazio/engine/zeek</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.653</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Fork&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">repo=txEtcd</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.656</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Fork&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">repo=oreo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.666</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Fork&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">repo=gindi</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.746</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Fork&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">repo=zebo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.747</td>
+<td class="cell-who">ziggy.task_manager</td>
+<td class="cell-what">Task&nbsp;complete</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">task=zebo.workflow.fork</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.747</td>
+<td class="cell-who">ziggy.task_manager</td>
+<td class="cell-what">Running&nbsp;task</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">task=zebo.workflow.clone</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.747</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Ensuring&nbsp;clone&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">target_path=txEtcd</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">root_path=/Users/omrih/iguazio/platform</span>
+&nbsp;<span class="label label-default label-ziggy-grey2">git_url=git@github.com:iguazio/txEtcd.git</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.747</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Clone&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">target_path=txEtcd</span>
+&nbsp;<span class="label label-default label-ziggy-red1">root_path=/Users/omrih/iguazio/platform</span>
+&nbsp;<span class="label label-default label-ziggy-red2">git_url=git@github.com:iguazio/txEtcd.git</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.748</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Ensuring&nbsp;clone&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">target_path=gindi</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">root_path=/Users/omrih/iguazio/platform</span>
+&nbsp;<span class="label label-default label-ziggy-purple2">git_url=git@github.com:iguazio/gindi.git</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.748</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Clone&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">target_path=gindi</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">root_path=/Users/omrih/iguazio/platform</span>
+&nbsp;<span class="label label-default label-ziggy-blue2">git_url=git@github.com:iguazio/gindi.git</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.748</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Ensuring&nbsp;clone&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">target_path=oreo</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">root_path=/Users/omrih/iguazio/platform</span>
+&nbsp;<span class="label label-default label-ziggy-grey2">git_url=git@github.com:iguazio/oreo.git</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.748</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Clone&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">target_path=oreo</span>
+&nbsp;<span class="label label-default label-ziggy-red1">root_path=/Users/omrih/iguazio/platform</span>
+&nbsp;<span class="label label-default label-ziggy-red2">git_url=git@github.com:iguazio/oreo.git</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.748</td>
+<td class="cell-who">ziggy.task_manager</td>
+<td class="cell-what">Task&nbsp;complete</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">task=zebo.workflow.clone</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.749</td>
+<td class="cell-who">ziggy.task_manager</td>
+<td class="cell-what">Running&nbsp;task</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">task=zebo.workflow.configure_remotes</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.749</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Ensuring&nbsp;remotes&nbsp;exist</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">path=/Users/omrih/iguazio/platform/txEtcd</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">remotes={'origin':&nbsp;'git@github.com:omriharel/txEtcd.git',&nbsp;'upstream':&nbsp;'git@github.com:iguazio/txEtcd.git'}</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.749</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">command=git&nbsp;config&nbsp;--local&nbsp;--get&nbsp;remote.origin.url</span>
+&nbsp;<span class="label label-default label-ziggy-red1">quiet=True</span>
+&nbsp;<span class="label label-default label-ziggy-red2">cwd=/Users/omrih/iguazio/platform/txEtcd</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.752</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Ensuring&nbsp;remotes&nbsp;exist</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">path=/Users/omrih/iguazio/platform/gindi</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">remotes={'origin':&nbsp;'git@github.com:omriharel/gindi.git',&nbsp;'upstream':&nbsp;'git@github.com:iguazio/gindi.git'}</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.754</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">command=git&nbsp;config&nbsp;--local&nbsp;--get&nbsp;remote.origin.url</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">quiet=True</span>
+&nbsp;<span class="label label-default label-ziggy-blue2">cwd=/Users/omrih/iguazio/platform/gindi</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.758</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Ensuring&nbsp;remotes&nbsp;exist</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">path=/Users/omrih/iguazio/platform/oreo</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">remotes={'origin':&nbsp;'git@github.com:omriharel/oreo.git',&nbsp;'upstream':&nbsp;'git@github.com:iguazio/oreo.git'}</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.760</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">command=git&nbsp;config&nbsp;--local&nbsp;--get&nbsp;remote.origin.url</span>
+&nbsp;<span class="label label-default label-ziggy-red1">quiet=True</span>
+&nbsp;<span class="label label-default label-ziggy-red2">cwd=/Users/omrih/iguazio/platform/oreo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.763</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Ensuring&nbsp;remotes&nbsp;exist</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">path=/Users/omrih/iguazio/platform/zebo</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">remotes={'origin':&nbsp;'git@github.com:omriharel/zebo.git',&nbsp;'upstream':&nbsp;'git@github.com:iguazio/zebo.git'}</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.765</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">command=git&nbsp;config&nbsp;--local&nbsp;--get&nbsp;remote.origin.url</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">quiet=True</span>
+&nbsp;<span class="label label-default label-ziggy-blue2">cwd=/Users/omrih/iguazio/platform/zebo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.773</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-grey0">cmd=git&nbsp;config&nbsp;--local&nbsp;--get&nbsp;remote.origin.url</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">cwd=/Users/omrih/iguazio/platform/oreo</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">git@github.com:omriharel/oreo.git<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.774</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Remote&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">url=git@github.com:omriharel/oreo.git</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">name=origin</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.774</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">command=git&nbsp;config&nbsp;--local&nbsp;--get&nbsp;remote.upstream.url</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">quiet=True</span>
+&nbsp;<span class="label label-default label-ziggy-blue2">cwd=/Users/omrih/iguazio/platform/oreo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.779</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-grey0">cmd=git&nbsp;config&nbsp;--local&nbsp;--get&nbsp;remote.origin.url</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">cwd=/Users/omrih/iguazio/platform/gindi</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">git@github.com:omriharel/gindi.git<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.780</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Remote&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">url=git@github.com:omriharel/gindi.git</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">name=origin</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.780</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">command=git&nbsp;config&nbsp;--local&nbsp;--get&nbsp;remote.upstream.url</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">quiet=True</span>
+&nbsp;<span class="label label-default label-ziggy-blue2">cwd=/Users/omrih/iguazio/platform/gindi</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.784</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-grey0">cmd=git&nbsp;config&nbsp;--local&nbsp;--get&nbsp;remote.origin.url</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">cwd=/Users/omrih/iguazio/platform/txEtcd</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">git@github.com:omriharel/txEtcd.git<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.785</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Remote&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">url=git@github.com:omriharel/txEtcd.git</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">name=origin</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.786</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">command=git&nbsp;config&nbsp;--local&nbsp;--get&nbsp;remote.upstream.url</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">quiet=True</span>
+&nbsp;<span class="label label-default label-ziggy-blue2">cwd=/Users/omrih/iguazio/platform/txEtcd</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.791</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-grey0">cmd=git&nbsp;config&nbsp;--local&nbsp;--get&nbsp;remote.upstream.url</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">cwd=/Users/omrih/iguazio/platform/oreo</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">git@github.com:iguazio/oreo.git<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.791</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Remote&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">url=git@github.com:iguazio/oreo.git</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">name=upstream</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.792</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-blue0">cmd=git&nbsp;config&nbsp;--local&nbsp;--get&nbsp;remote.origin.url</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">cwd=/Users/omrih/iguazio/platform/zebo</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">git@github.com:omriharel/zebo.git<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.792</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Remote&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">url=git@github.com:omriharel/zebo.git</span>
+&nbsp;<span class="label label-default label-ziggy-red1">name=origin</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.792</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">command=git&nbsp;config&nbsp;--local&nbsp;--get&nbsp;remote.upstream.url</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">quiet=True</span>
+&nbsp;<span class="label label-default label-ziggy-purple2">cwd=/Users/omrih/iguazio/platform/zebo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.796</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-blue0">cmd=git&nbsp;config&nbsp;--local&nbsp;--get&nbsp;remote.upstream.url</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">cwd=/Users/omrih/iguazio/platform/gindi</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">git@github.com:iguazio/gindi.git<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.798</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Remote&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">url=git@github.com:iguazio/gindi.git</span>
+&nbsp;<span class="label label-default label-ziggy-red1">name=upstream</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.799</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-purple0">cmd=git&nbsp;config&nbsp;--local&nbsp;--get&nbsp;remote.upstream.url</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">cwd=/Users/omrih/iguazio/platform/txEtcd</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">git@github.com:iguazio/txEtcd.git<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.799</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Remote&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">url=git@github.com:iguazio/txEtcd.git</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">name=upstream</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.802</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-red0">cmd=git&nbsp;config&nbsp;--local&nbsp;--get&nbsp;remote.upstream.url</span>
+&nbsp;<span class="label label-default label-ziggy-red1">cwd=/Users/omrih/iguazio/platform/zebo</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">git@github.com:iguazio/zebo.git<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.803</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Remote&nbsp;exists</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">url=git@github.com:iguazio/zebo.git</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">name=upstream</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.803</td>
+<td class="cell-who">ziggy.task_manager</td>
+<td class="cell-what">Task&nbsp;complete</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">task=zebo.workflow.configure_remotes</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.803</td>
+<td class="cell-who">ziggy.task_manager</td>
+<td class="cell-what">Running&nbsp;task</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">task=zebo.workflow.update_sources</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.804</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Merging&nbsp;remote&nbsp;branch</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">local_branch=development</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">path=/Users/omrih/iguazio/platform/txEtcd</span>
+&nbsp;<span class="label label-default label-ziggy-purple2">remotes=['upstream',&nbsp;'origin']</span>
+&nbsp;<span class="label label-default label-ziggy-purple3">fetch=True</span>
+&nbsp;<span class="label label-default label-ziggy-purple0">checkout_local_branch=True</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.804</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">command=git&nbsp;status&nbsp;-s</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-blue2">cwd=/Users/omrih/iguazio/platform/txEtcd</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.806</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Merging&nbsp;remote&nbsp;branch</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">local_branch=development</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">path=/Users/omrih/iguazio/platform/gindi</span>
+&nbsp;<span class="label label-default label-ziggy-grey2">remotes=['upstream',&nbsp;'origin']</span>
+&nbsp;<span class="label label-default label-ziggy-grey3">fetch=True</span>
+&nbsp;<span class="label label-default label-ziggy-grey0">checkout_local_branch=True</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.807</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">command=git&nbsp;status&nbsp;-s</span>
+&nbsp;<span class="label label-default label-ziggy-red1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-red2">cwd=/Users/omrih/iguazio/platform/gindi</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.811</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Merging&nbsp;remote&nbsp;branch</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">local_branch=development</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">path=/Users/omrih/iguazio/platform/oreo</span>
+&nbsp;<span class="label label-default label-ziggy-purple2">remotes=['upstream',&nbsp;'origin']</span>
+&nbsp;<span class="label label-default label-ziggy-purple3">fetch=True</span>
+&nbsp;<span class="label label-default label-ziggy-purple0">checkout_local_branch=True</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.812</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">command=git&nbsp;status&nbsp;-s</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-blue2">cwd=/Users/omrih/iguazio/platform/oreo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.816</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Merging&nbsp;remote&nbsp;branch</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">local_branch=development</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">path=/Users/omrih/iguazio/platform/zebo</span>
+&nbsp;<span class="label label-default label-ziggy-grey2">remotes=['upstream',&nbsp;'origin']</span>
+&nbsp;<span class="label label-default label-ziggy-grey3">fetch=True</span>
+&nbsp;<span class="label label-default label-ziggy-grey0">checkout_local_branch=True</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.817</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">command=git&nbsp;status&nbsp;-s</span>
+&nbsp;<span class="label label-default label-ziggy-red1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-red2">cwd=/Users/omrih/iguazio/platform/zebo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.824</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-purple0">cmd=git&nbsp;status&nbsp;-s</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">cwd=/Users/omrih/iguazio/platform/txEtcd</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.825</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">command=git&nbsp;remote</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-grey2">cwd=/Users/omrih/iguazio/platform/txEtcd</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.829</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-red0">cmd=git&nbsp;status&nbsp;-s</span>
+&nbsp;<span class="label label-default label-ziggy-red1">cwd=/Users/omrih/iguazio/platform/gindi</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.830</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">command=git&nbsp;remote</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-blue2">cwd=/Users/omrih/iguazio/platform/gindi</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.834</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-grey0">cmd=git&nbsp;status&nbsp;-s</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">cwd=/Users/omrih/iguazio/platform/oreo</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.836</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">command=git&nbsp;remote</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-purple2">cwd=/Users/omrih/iguazio/platform/oreo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.841</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-blue0">cmd=git&nbsp;remote</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">cwd=/Users/omrih/iguazio/platform/txEtcd</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">origin<br>upstream<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.842</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Fetching&nbsp;remote</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">path=/Users/omrih/iguazio/platform/txEtcd</span>
+&nbsp;<span class="label label-default label-ziggy-red1">name=upstream</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.842</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">command=git&nbsp;fetch&nbsp;upstream</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-purple2">cwd=/Users/omrih/iguazio/platform/txEtcd</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.847</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-blue0">cmd=git&nbsp;remote</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">cwd=/Users/omrih/iguazio/platform/gindi</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">origin<br>upstream<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.848</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Fetching&nbsp;remote</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">path=/Users/omrih/iguazio/platform/gindi</span>
+&nbsp;<span class="label label-default label-ziggy-red1">name=upstream</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.848</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">command=git&nbsp;fetch&nbsp;upstream</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-purple2">cwd=/Users/omrih/iguazio/platform/gindi</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.851</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-blue0">cmd=git&nbsp;remote</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">cwd=/Users/omrih/iguazio/platform/oreo</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">origin<br>upstream<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.854</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Fetching&nbsp;remote</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">path=/Users/omrih/iguazio/platform/oreo</span>
+&nbsp;<span class="label label-default label-ziggy-red1">name=upstream</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.854</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">command=git&nbsp;fetch&nbsp;upstream</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-purple2">cwd=/Users/omrih/iguazio/platform/oreo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.866</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-blue0">cmd=git&nbsp;status&nbsp;-s</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">cwd=/Users/omrih/iguazio/platform/zebo</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.867</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">command=git&nbsp;remote</span>
+&nbsp;<span class="label label-default label-ziggy-red1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-red2">cwd=/Users/omrih/iguazio/platform/zebo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:10.878</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-purple0">cmd=git&nbsp;remote</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">cwd=/Users/omrih/iguazio/platform/zebo</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">itay<br>origin<br>upstream<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.879</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Fetching&nbsp;remote</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">path=/Users/omrih/iguazio/platform/zebo</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">name=upstream</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:10.879</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">command=git&nbsp;fetch&nbsp;upstream</span>
+&nbsp;<span class="label label-default label-ziggy-red1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-red2">cwd=/Users/omrih/iguazio/platform/zebo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:12.069</td>
+<td class="cell-who">ziggy.zeek</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-purple0">cmd=git&nbsp;fetch&nbsp;upstream</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">cwd=/Users/omrih/iguazio/engine/zeek</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">From&nbsp;github.com:iguazio/zeek<br>&nbsp;*&nbsp;[new&nbsp;branch]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;demo.bugfixes&nbsp;-&gt;&nbsp;upstream/demo.bugfixes<br></pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.070</td>
+<td class="cell-who">ziggy.zeek</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">command=git&nbsp;rev-parse&nbsp;--abbrev-ref&nbsp;HEAD</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-grey2">cwd=/Users/omrih/iguazio/engine/zeek</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:12.080</td>
+<td class="cell-who">ziggy.zeek</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-red0">cmd=git&nbsp;rev-parse&nbsp;--abbrev-ref&nbsp;HEAD</span>
+&nbsp;<span class="label label-default label-ziggy-red1">cwd=/Users/omrih/iguazio/engine/zeek</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">development<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.081</td>
+<td class="cell-who">ziggy.zeek</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">command=git&nbsp;merge&nbsp;--ff-only&nbsp;upstream/development</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">quiet=True</span>
+&nbsp;<span class="label label-default label-ziggy-blue2">cwd=/Users/omrih/iguazio/engine/zeek</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:12.094</td>
+<td class="cell-who">ziggy.zeek</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-grey0">cmd=git&nbsp;merge&nbsp;--ff-only&nbsp;upstream/development</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">cwd=/Users/omrih/iguazio/engine/zeek</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">Already&nbsp;up-to-date.<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.095</td>
+<td class="cell-who">ziggy.task_manager</td>
+<td class="cell-what">Task&nbsp;complete</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">task=zeek.update_sources</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:12.575</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-blue0">cmd=git&nbsp;fetch&nbsp;upstream</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">cwd=/Users/omrih/iguazio/platform/txEtcd</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.575</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">command=git&nbsp;rev-parse&nbsp;--abbrev-ref&nbsp;HEAD</span>
+&nbsp;<span class="label label-default label-ziggy-red1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-red2">cwd=/Users/omrih/iguazio/platform/txEtcd</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:12.579</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-purple0">cmd=git&nbsp;fetch&nbsp;upstream</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">cwd=/Users/omrih/iguazio/platform/gindi</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.581</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">command=git&nbsp;rev-parse&nbsp;--abbrev-ref&nbsp;HEAD</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-grey2">cwd=/Users/omrih/iguazio/platform/gindi</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:12.587</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-red0">cmd=git&nbsp;rev-parse&nbsp;--abbrev-ref&nbsp;HEAD</span>
+&nbsp;<span class="label label-default label-ziggy-red1">cwd=/Users/omrih/iguazio/platform/txEtcd</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">development<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.588</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">command=git&nbsp;merge&nbsp;--ff-only&nbsp;upstream/development</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">quiet=True</span>
+&nbsp;<span class="label label-default label-ziggy-blue2">cwd=/Users/omrih/iguazio/platform/txEtcd</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:12.591</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-grey0">cmd=git&nbsp;rev-parse&nbsp;--abbrev-ref&nbsp;HEAD</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">cwd=/Users/omrih/iguazio/platform/gindi</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">development<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.593</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">command=git&nbsp;merge&nbsp;--ff-only&nbsp;upstream/development</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">quiet=True</span>
+&nbsp;<span class="label label-default label-ziggy-purple2">cwd=/Users/omrih/iguazio/platform/gindi</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:12.600</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-blue0">cmd=git&nbsp;merge&nbsp;--ff-only&nbsp;upstream/development</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">cwd=/Users/omrih/iguazio/platform/txEtcd</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">Already&nbsp;up-to-date.<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:12.603</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-red0">cmd=git&nbsp;merge&nbsp;--ff-only&nbsp;upstream/development</span>
+&nbsp;<span class="label label-default label-ziggy-red1">cwd=/Users/omrih/iguazio/platform/gindi</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">Already&nbsp;up-to-date.<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:12.781</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-blue0">cmd=git&nbsp;fetch&nbsp;upstream</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">cwd=/Users/omrih/iguazio/platform/zebo</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.782</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">command=git&nbsp;rev-parse&nbsp;--abbrev-ref&nbsp;HEAD</span>
+&nbsp;<span class="label label-default label-ziggy-red1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-red2">cwd=/Users/omrih/iguazio/platform/zebo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:12.792</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-purple0">cmd=git&nbsp;rev-parse&nbsp;--abbrev-ref&nbsp;HEAD</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">cwd=/Users/omrih/iguazio/platform/zebo</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">development<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.793</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">command=git&nbsp;merge&nbsp;--ff-only&nbsp;upstream/development</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">quiet=True</span>
+&nbsp;<span class="label label-default label-ziggy-grey2">cwd=/Users/omrih/iguazio/platform/zebo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:12.806</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-red0">cmd=git&nbsp;merge&nbsp;--ff-only&nbsp;upstream/development</span>
+&nbsp;<span class="label label-default label-ziggy-red1">cwd=/Users/omrih/iguazio/platform/zebo</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">Already&nbsp;up-to-date.<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:12.837</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-blue0">cmd=git&nbsp;fetch&nbsp;upstream</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">cwd=/Users/omrih/iguazio/platform/oreo</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.837</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">command=git&nbsp;rev-parse&nbsp;--abbrev-ref&nbsp;HEAD</span>
+&nbsp;<span class="label label-default label-ziggy-red1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-red2">cwd=/Users/omrih/iguazio/platform/oreo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:12.848</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-purple0">cmd=git&nbsp;rev-parse&nbsp;--abbrev-ref&nbsp;HEAD</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">cwd=/Users/omrih/iguazio/platform/oreo</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">development<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.849</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">command=git&nbsp;merge&nbsp;--ff-only&nbsp;upstream/development</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">quiet=True</span>
+&nbsp;<span class="label label-default label-ziggy-grey2">cwd=/Users/omrih/iguazio/platform/oreo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-success label-severity">I</span></td>
+<td class="cell-when">20:10:12.860</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Command&nbsp;succeeded</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-red0">cmd=git&nbsp;merge&nbsp;--ff-only&nbsp;upstream/development</span>
+&nbsp;<span class="label label-default label-ziggy-red1">cwd=/Users/omrih/iguazio/platform/oreo</span>
+<br><div class="div-ziggy-multiline-wrapper collapse"><pre class="pre-ziggy"><b>out</b><hr class="hr-ziggy">Already&nbsp;up-to-date.<br></pre><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">&lt;empty&nbsp;string&gt;</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.861</td>
+<td class="cell-who">ziggy.task_manager</td>
+<td class="cell-what">Task&nbsp;complete</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">task=zebo.workflow.update_sources</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.862</td>
+<td class="cell-who">ziggy.task_manager</td>
+<td class="cell-what">Running&nbsp;task</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">task=zebo.workflow.push_sources</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.862</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Pushing</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">local_branch=development</span>
+&nbsp;<span class="label label-default label-ziggy-red1">remote=origin</span>
+&nbsp;<span class="label label-default label-ziggy-red2">remote_branch=development</span>
+&nbsp;<span class="label label-default label-ziggy-red3">path=/Users/omrih/iguazio/platform/txEtcd</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.862</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">command=git&nbsp;push&nbsp;origin&nbsp;development:development</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-purple2">cwd=/Users/omrih/iguazio/platform/txEtcd</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.864</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Pushing</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">local_branch=development</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">remote=origin</span>
+&nbsp;<span class="label label-default label-ziggy-blue2">remote_branch=development</span>
+&nbsp;<span class="label label-default label-ziggy-blue3">path=/Users/omrih/iguazio/platform/gindi</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.865</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">command=git&nbsp;push&nbsp;origin&nbsp;development:development</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-grey2">cwd=/Users/omrih/iguazio/platform/gindi</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.868</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Pushing</td>
+<td class="cell-more"><span class="label label-default label-ziggy-red0">local_branch=development</span>
+&nbsp;<span class="label label-default label-ziggy-red1">remote=origin</span>
+&nbsp;<span class="label label-default label-ziggy-red2">remote_branch=development</span>
+&nbsp;<span class="label label-default label-ziggy-red3">path=/Users/omrih/iguazio/platform/oreo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.870</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-purple0">command=git&nbsp;push&nbsp;origin&nbsp;development:development</span>
+&nbsp;<span class="label label-default label-ziggy-purple1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-purple2">cwd=/Users/omrih/iguazio/platform/oreo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.873</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Pushing</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">local_branch=development</span>
+&nbsp;<span class="label label-default label-ziggy-blue1">remote=origin</span>
+&nbsp;<span class="label label-default label-ziggy-blue2">remote_branch=development</span>
+&nbsp;<span class="label label-default label-ziggy-blue3">path=/Users/omrih/iguazio/platform/zebo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-info label-severity">D</span></td>
+<td class="cell-when">20:10:12.875</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Running&nbsp;command</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">command=git&nbsp;push&nbsp;origin&nbsp;development:development</span>
+&nbsp;<span class="label label-default label-ziggy-grey1">quiet=False</span>
+&nbsp;<span class="label label-default label-ziggy-grey2">cwd=/Users/omrih/iguazio/platform/zebo</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-danger label-severity">E</span></td>
+<td class="cell-when">20:10:14.062</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Failed&nbsp;push&nbsp;on&nbsp;gindi</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-red0">error=exceptions&nbsp;must&nbsp;be&nbsp;classes,&nbsp;or&nbsp;instances,&nbsp;not&nbsp;type</span>
+<br><div class="div-ziggy-multiline-wrapper collapse in"><pre class="pre-ziggy"><b>args</b><hr class="hr-ziggy">{<br>&nbsp;&nbsp;&nbsp;&nbsp;"local_branch":&nbsp;"development",<br>&nbsp;&nbsp;&nbsp;&nbsp;"path":&nbsp;"/Users/omrih/iguazio/platform/gindi",<br>&nbsp;&nbsp;&nbsp;&nbsp;"remote_branch":&nbsp;"development",<br>&nbsp;&nbsp;&nbsp;&nbsp;"ctx":&nbsp;"&lt;core.context.Context&nbsp;object&nbsp;at&nbsp;0x10d90fb50&gt;",<br>&nbsp;&nbsp;&nbsp;&nbsp;"remote":&nbsp;"origin"<br>}</pre><pre class="pre-ziggy"><b>traceback</b><hr class="hr-ziggy">Traceback&nbsp;(most&nbsp;recent&nbsp;call&nbsp;last):<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;434,&nbsp;in&nbsp;errback<br>&nbsp;&nbsp;&nbsp;&nbsp;self._startRunCallbacks(fail)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;501,&nbsp;in&nbsp;_startRunCallbacks<br>&nbsp;&nbsp;&nbsp;&nbsp;self._runCallbacks()<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;588,&nbsp;in&nbsp;_runCallbacks<br>&nbsp;&nbsp;&nbsp;&nbsp;current.result&nbsp;=&nbsp;callback(current.result,&nbsp;*args,&nbsp;**kw)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;1184,&nbsp;in&nbsp;gotResult<br>&nbsp;&nbsp;&nbsp;&nbsp;_inlineCallbacks(r,&nbsp;g,&nbsp;deferred)<br>---&nbsp;&lt;exception&nbsp;caught&nbsp;here&gt;&nbsp;---<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;1126,&nbsp;in&nbsp;_inlineCallbacks<br>&nbsp;&nbsp;&nbsp;&nbsp;result&nbsp;=&nbsp;result.throwExceptionIntoGenerator(g)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/python/failure.py",&nbsp;line&nbsp;389,&nbsp;in&nbsp;throwExceptionIntoGenerator<br>&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;g.throw(self.type,&nbsp;self.value,&nbsp;self.tb)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/ziggy/shell/__init__.py",&nbsp;line&nbsp;43,&nbsp;in&nbsp;run<br>&nbsp;&nbsp;&nbsp;&nbsp;result&nbsp;=&nbsp;yield&nbsp;_execute(ctx,&nbsp;command,&nbsp;cwd,&nbsp;quiet)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;1126,&nbsp;in&nbsp;_inlineCallbacks<br>&nbsp;&nbsp;&nbsp;&nbsp;result&nbsp;=&nbsp;result.throwExceptionIntoGenerator(g)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/python/failure.py",&nbsp;line&nbsp;389,&nbsp;in&nbsp;throwExceptionIntoGenerator<br>&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;g.throw(self.type,&nbsp;self.value,&nbsp;self.tb)<br>exceptions.TypeError:&nbsp;exceptions&nbsp;must&nbsp;be&nbsp;classes,&nbsp;or&nbsp;instances,&nbsp;not&nbsp;type<br></pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-danger label-severity">E</span></td>
+<td class="cell-when">20:10:14.064</td>
+<td class="cell-who">ziggy.task_manager</td>
+<td class="cell-what">Task&nbsp;failed</td>
+<td class="cell-more"><span class="label label-default label-ziggy-blue0">task=zebo.workflow.push_sources</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-danger label-severity">E</span></td>
+<td class="cell-when">20:10:14.065</td>
+<td class="cell-who">ziggy.task_manager</td>
+<td class="cell-what">Task&nbsp;failed</td>
+<td class="cell-more"><span class="label label-default label-ziggy-grey0">task=zebo.workflow</span>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-danger label-severity">E</span></td>
+<td class="cell-when">20:10:14.065</td>
+<td class="cell-who">ziggy</td>
+<td class="cell-what">Unhandled&nbsp;exception</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<br><div class="div-ziggy-multiline-wrapper collapse in"><pre class="pre-ziggy"><b>err</b><hr class="hr-ziggy">FirstError[#0,&nbsp;[Failure&nbsp;instance:&nbsp;Traceback:&nbsp;&lt;class&nbsp;'twisted.internet.defer.FirstError'&gt;:&nbsp;FirstError[#1,&nbsp;[Failure&nbsp;instance:&nbsp;Traceback:&nbsp;&lt;type&nbsp;'exceptions.TypeError'&gt;:&nbsp;exceptions&nbsp;must&nbsp;be&nbsp;classes,&nbsp;or&nbsp;instances,&nbsp;not&nbsp;type<br>/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py:434:errback<br>/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py:501:_startRunCallbacks<br>/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py:588:_runCallbacks<br>/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py:1184:gotResult<br>---&nbsp;&lt;exception&nbsp;caught&nbsp;here&gt;&nbsp;---<br>/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py:1126:_inlineCallbacks<br>/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/python/failure.py:389:throwExceptionIntoGenerator<br>/Users/omrih/iguazio/ziggy/ziggy/shell/__init__.py:43:run<br>/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py:1126:_inlineCallbacks<br>/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/python/failure.py:389:throwExceptionIntoGenerator<br>]]<br>/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py:434:errback<br>/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py:501:_startRunCallbacks<br>/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py:588:_runCallbacks<br>/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py:1184:gotResult<br>---&nbsp;&lt;exception&nbsp;caught&nbsp;here&gt;&nbsp;---<br>/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py:1126:_inlineCallbacks<br>/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/python/failure.py:389:throwExceptionIntoGenerator<br>/Users/omrih/iguazio/ziggy/core/task_manager.py:47:run_tasks<br>/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py:1126:_inlineCallbacks<br>/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/python/failure.py:389:throwExceptionIntoGenerator<br>/Users/omrih/iguazio/ziggy/core/task_manager.py:98:_run_task<br>]]</pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-danger label-severity">E</span></td>
+<td class="cell-when">20:10:14.066</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Failed&nbsp;push&nbsp;on&nbsp;txEtcd</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-blue0">error=exceptions&nbsp;must&nbsp;be&nbsp;classes,&nbsp;or&nbsp;instances,&nbsp;not&nbsp;type</span>
+<br><div class="div-ziggy-multiline-wrapper collapse in"><pre class="pre-ziggy"><b>args</b><hr class="hr-ziggy">{<br>&nbsp;&nbsp;&nbsp;&nbsp;"local_branch":&nbsp;"development",<br>&nbsp;&nbsp;&nbsp;&nbsp;"path":&nbsp;"/Users/omrih/iguazio/platform/txEtcd",<br>&nbsp;&nbsp;&nbsp;&nbsp;"remote_branch":&nbsp;"development",<br>&nbsp;&nbsp;&nbsp;&nbsp;"ctx":&nbsp;"&lt;core.context.Context&nbsp;object&nbsp;at&nbsp;0x10d90fb50&gt;",<br>&nbsp;&nbsp;&nbsp;&nbsp;"remote":&nbsp;"origin"<br>}</pre><pre class="pre-ziggy"><b>traceback</b><hr class="hr-ziggy">Traceback&nbsp;(most&nbsp;recent&nbsp;call&nbsp;last):<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;434,&nbsp;in&nbsp;errback<br>&nbsp;&nbsp;&nbsp;&nbsp;self._startRunCallbacks(fail)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;501,&nbsp;in&nbsp;_startRunCallbacks<br>&nbsp;&nbsp;&nbsp;&nbsp;self._runCallbacks()<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;588,&nbsp;in&nbsp;_runCallbacks<br>&nbsp;&nbsp;&nbsp;&nbsp;current.result&nbsp;=&nbsp;callback(current.result,&nbsp;*args,&nbsp;**kw)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;1184,&nbsp;in&nbsp;gotResult<br>&nbsp;&nbsp;&nbsp;&nbsp;_inlineCallbacks(r,&nbsp;g,&nbsp;deferred)<br>---&nbsp;&lt;exception&nbsp;caught&nbsp;here&gt;&nbsp;---<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;1126,&nbsp;in&nbsp;_inlineCallbacks<br>&nbsp;&nbsp;&nbsp;&nbsp;result&nbsp;=&nbsp;result.throwExceptionIntoGenerator(g)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/python/failure.py",&nbsp;line&nbsp;389,&nbsp;in&nbsp;throwExceptionIntoGenerator<br>&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;g.throw(self.type,&nbsp;self.value,&nbsp;self.tb)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/ziggy/shell/__init__.py",&nbsp;line&nbsp;43,&nbsp;in&nbsp;run<br>&nbsp;&nbsp;&nbsp;&nbsp;result&nbsp;=&nbsp;yield&nbsp;_execute(ctx,&nbsp;command,&nbsp;cwd,&nbsp;quiet)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;1126,&nbsp;in&nbsp;_inlineCallbacks<br>&nbsp;&nbsp;&nbsp;&nbsp;result&nbsp;=&nbsp;result.throwExceptionIntoGenerator(g)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/python/failure.py",&nbsp;line&nbsp;389,&nbsp;in&nbsp;throwExceptionIntoGenerator<br>&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;g.throw(self.type,&nbsp;self.value,&nbsp;self.tb)<br>exceptions.TypeError:&nbsp;exceptions&nbsp;must&nbsp;be&nbsp;classes,&nbsp;or&nbsp;instances,&nbsp;not&nbsp;type<br></pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-danger label-severity">E</span></td>
+<td class="cell-when">20:10:14.068</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Failed&nbsp;push&nbsp;on&nbsp;oreo</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-red0">error=exceptions&nbsp;must&nbsp;be&nbsp;classes,&nbsp;or&nbsp;instances,&nbsp;not&nbsp;type</span>
+<br><div class="div-ziggy-multiline-wrapper collapse in"><pre class="pre-ziggy"><b>args</b><hr class="hr-ziggy">{<br>&nbsp;&nbsp;&nbsp;&nbsp;"local_branch":&nbsp;"development",<br>&nbsp;&nbsp;&nbsp;&nbsp;"path":&nbsp;"/Users/omrih/iguazio/platform/oreo",<br>&nbsp;&nbsp;&nbsp;&nbsp;"remote_branch":&nbsp;"development",<br>&nbsp;&nbsp;&nbsp;&nbsp;"ctx":&nbsp;"&lt;core.context.Context&nbsp;object&nbsp;at&nbsp;0x10d90fb50&gt;",<br>&nbsp;&nbsp;&nbsp;&nbsp;"remote":&nbsp;"origin"<br>}</pre><pre class="pre-ziggy"><b>traceback</b><hr class="hr-ziggy">Traceback&nbsp;(most&nbsp;recent&nbsp;call&nbsp;last):<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;434,&nbsp;in&nbsp;errback<br>&nbsp;&nbsp;&nbsp;&nbsp;self._startRunCallbacks(fail)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;501,&nbsp;in&nbsp;_startRunCallbacks<br>&nbsp;&nbsp;&nbsp;&nbsp;self._runCallbacks()<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;588,&nbsp;in&nbsp;_runCallbacks<br>&nbsp;&nbsp;&nbsp;&nbsp;current.result&nbsp;=&nbsp;callback(current.result,&nbsp;*args,&nbsp;**kw)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;1184,&nbsp;in&nbsp;gotResult<br>&nbsp;&nbsp;&nbsp;&nbsp;_inlineCallbacks(r,&nbsp;g,&nbsp;deferred)<br>---&nbsp;&lt;exception&nbsp;caught&nbsp;here&gt;&nbsp;---<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;1126,&nbsp;in&nbsp;_inlineCallbacks<br>&nbsp;&nbsp;&nbsp;&nbsp;result&nbsp;=&nbsp;result.throwExceptionIntoGenerator(g)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/python/failure.py",&nbsp;line&nbsp;389,&nbsp;in&nbsp;throwExceptionIntoGenerator<br>&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;g.throw(self.type,&nbsp;self.value,&nbsp;self.tb)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/ziggy/shell/__init__.py",&nbsp;line&nbsp;43,&nbsp;in&nbsp;run<br>&nbsp;&nbsp;&nbsp;&nbsp;result&nbsp;=&nbsp;yield&nbsp;_execute(ctx,&nbsp;command,&nbsp;cwd,&nbsp;quiet)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;1126,&nbsp;in&nbsp;_inlineCallbacks<br>&nbsp;&nbsp;&nbsp;&nbsp;result&nbsp;=&nbsp;result.throwExceptionIntoGenerator(g)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/python/failure.py",&nbsp;line&nbsp;389,&nbsp;in&nbsp;throwExceptionIntoGenerator<br>&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;g.throw(self.type,&nbsp;self.value,&nbsp;self.tb)<br>exceptions.TypeError:&nbsp;exceptions&nbsp;must&nbsp;be&nbsp;classes,&nbsp;or&nbsp;instances,&nbsp;not&nbsp;type<br></pre></div>
+</td>
+</tr>
+
+<tr>
+<td class="cell-severity"><span class="label label-danger label-severity">E</span></td>
+<td class="cell-when">20:10:14.070</td>
+<td class="cell-who">ziggy.zebo</td>
+<td class="cell-what">Failed&nbsp;push&nbsp;on&nbsp;zebo</td>
+<td class="cell-more"><button class="btn btn-default btn-ziggy" data-toggle="collapse-multiline-fields">. . .</button>&nbsp;
+<span class="label label-default label-ziggy-blue0">error=exceptions&nbsp;must&nbsp;be&nbsp;classes,&nbsp;or&nbsp;instances,&nbsp;not&nbsp;type</span>
+<br><div class="div-ziggy-multiline-wrapper collapse in"><pre class="pre-ziggy"><b>args</b><hr class="hr-ziggy">{<br>&nbsp;&nbsp;&nbsp;&nbsp;"local_branch":&nbsp;"development",<br>&nbsp;&nbsp;&nbsp;&nbsp;"path":&nbsp;"/Users/omrih/iguazio/platform/zebo",<br>&nbsp;&nbsp;&nbsp;&nbsp;"remote_branch":&nbsp;"development",<br>&nbsp;&nbsp;&nbsp;&nbsp;"ctx":&nbsp;"&lt;core.context.Context&nbsp;object&nbsp;at&nbsp;0x10d90fb50&gt;",<br>&nbsp;&nbsp;&nbsp;&nbsp;"remote":&nbsp;"origin"<br>}</pre><pre class="pre-ziggy"><b>traceback</b><hr class="hr-ziggy">Traceback&nbsp;(most&nbsp;recent&nbsp;call&nbsp;last):<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;434,&nbsp;in&nbsp;errback<br>&nbsp;&nbsp;&nbsp;&nbsp;self._startRunCallbacks(fail)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;501,&nbsp;in&nbsp;_startRunCallbacks<br>&nbsp;&nbsp;&nbsp;&nbsp;self._runCallbacks()<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;588,&nbsp;in&nbsp;_runCallbacks<br>&nbsp;&nbsp;&nbsp;&nbsp;current.result&nbsp;=&nbsp;callback(current.result,&nbsp;*args,&nbsp;**kw)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;1184,&nbsp;in&nbsp;gotResult<br>&nbsp;&nbsp;&nbsp;&nbsp;_inlineCallbacks(r,&nbsp;g,&nbsp;deferred)<br>---&nbsp;&lt;exception&nbsp;caught&nbsp;here&gt;&nbsp;---<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;1126,&nbsp;in&nbsp;_inlineCallbacks<br>&nbsp;&nbsp;&nbsp;&nbsp;result&nbsp;=&nbsp;result.throwExceptionIntoGenerator(g)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/python/failure.py",&nbsp;line&nbsp;389,&nbsp;in&nbsp;throwExceptionIntoGenerator<br>&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;g.throw(self.type,&nbsp;self.value,&nbsp;self.tb)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/ziggy/shell/__init__.py",&nbsp;line&nbsp;43,&nbsp;in&nbsp;run<br>&nbsp;&nbsp;&nbsp;&nbsp;result&nbsp;=&nbsp;yield&nbsp;_execute(ctx,&nbsp;command,&nbsp;cwd,&nbsp;quiet)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/internet/defer.py",&nbsp;line&nbsp;1126,&nbsp;in&nbsp;_inlineCallbacks<br>&nbsp;&nbsp;&nbsp;&nbsp;result&nbsp;=&nbsp;result.throwExceptionIntoGenerator(g)<br>&nbsp;&nbsp;File&nbsp;"/Users/omrih/iguazio/ziggy/venv/lib/python2.7/site-packages/twisted/python/failure.py",&nbsp;line&nbsp;389,&nbsp;in&nbsp;throwExceptionIntoGenerator<br>&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;g.throw(self.type,&nbsp;self.value,&nbsp;self.tb)<br>exceptions.TypeError:&nbsp;exceptions&nbsp;must&nbsp;be&nbsp;classes,&nbsp;or&nbsp;instances,&nbsp;not&nbsp;type<br></pre></div>
+</td>
+</tr>
+
+    </table>
+    </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+            crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    $('body').on('click.collapse-multiline-fields.data-api', '[data-toggle=collapse-multiline-fields]', function (e) {
+        var $target = $(this).siblings('div.div-ziggy-multiline-wrapper').first();
+        $target.collapse('toggle');
+    });
+    </script>
+</body>
+</html>

@@ -1,2 +1,2 @@
 # omri.io
-Website and API sources for omri.io
+Website sources for omri.io and its subsidiaries

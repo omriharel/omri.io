@@ -1,0 +1,30 @@
+{
+  "users": {
+    "omri": {
+      "hash": "4ccf5566147802152c52407b4366fcfdc7021ea9f6297843194b884b066ca2ba$9e40c4b8",
+      "privileged": true
+    }
+  },
+  "sessions": {
+    "V/Ll6WmkNTDj2+crjP1eCXCk5seF0g6G8486T/aPHnUHmSqC": {
+      "privileged": true,
+      "username": "omri",
+      "lastSeen": 1496103006954
+    },
+    "KiRyyXYv0LhFBnlvzspV2fADYHv7PZorEzpAAktZHHJhfrmT": {
+      "privileged": true,
+      "username": "omri",
+      "lastSeen": 1496103123742
+    }
+  },
+  "links": {
+    "u2a6w": {
+      "location": "/pics/deer.png",
+      "attachement": true
+    },
+    "cx2ms": {
+      "location": "/pics/deer.png",
+      "attachement": false
+    }
+  }
+}

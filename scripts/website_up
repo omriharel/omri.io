@@ -1,0 +1,51 @@
+# shutdown if we're already running
+~/scripts/website_down
+
+# nginx-proxy takes care of dynamically changing nginx config as other containers are brought up or down
+docker run -d -p 80:80 -p 443:443 \
+    --name nginx-proxy \
+    -v /home/omri/.certs:/etc/nginx/certs:ro \
+    -v /etc/nginx/vhost.d \
+    -v /usr/share/nginx/html \
+    -v /var/run/docker.sock:/tmp/docker.sock:ro \
+    --label com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy=true \
+    jwilder/nginx-proxy
+
+# https
+docker run -d \
+    --name letsencrypt \
+    -v /home/omri/.certs:/etc/nginx/certs:rw \
+    -v /var/run/docker.sock:/var/run/docker.sock:ro \
+    --volumes-from nginx-proxy \
+    jrcs/letsencrypt-nginx-proxy-companion
+
+# main page
+docker run -d -p 6000 \
+    --name landing \
+    -e VIRTUAL_HOST=www.omri.io,omri.io \
+    -e LETSENCRYPT_HOST=www.omri.io,omri.io \
+    -e LETSENCRYPT_EMAIL=omri@omri.io \
+    -v /home/omri/www:/usr/share/nginx/html:ro \
+    nginx
+
+# the blog
+docker run -d -p 6001:2368 \
+    --name ghost \
+    -e NODE_ENV=production \
+    -e VIRTUAL_HOST=blog.omri.io \
+    -e LETSENCRYPT_HOST=blog.omri.io \
+    -e LETSENCRYPT_EMAIL=omri@omri.io \
+    -v /home/omri/ghost-data:/var/lib/ghost \
+    ghost
+
+# the box
+docker run -d -p 6002:8989 \
+    --name droppy \
+    -e UID=1000 \
+    -e GID=1000 \
+    -e VIRTUAL_HOST=box.omri.io \
+    -e LETSENCRYPT_HOST=box.omri.io \
+    -e LETSENCRYPT_EMAIL=omri@omri.io \
+    -v /home/omri/box/config:/config \
+    -v /home/omri/box/files:/files \
+    silverwind/droppy
