@@ -56,3 +56,24 @@ docker run -t -d -p 25:25 \
     -e SMF_DOMAIN="omri.io" \
     -e SMF_CONFIG="omri@omri.io:omri.harel.en@gmail.com:icyM@il3r;admin@omri.io:omri.harel.en@gmail.com;no-reply@omri.io:omri.harel.en@gmail.com" \
     zixia/simple-mail-forwarder
+
+# rivi status page
+docker run -d -p 6003:8000 \
+    --name rivi-status \
+    -e VIRTUAL_HOST=rivi.omri.io \
+    -e LETSENCRYPT_HOST=rivi.omri.io \
+    -e LETSENCRYPT_EMAIL=omri@omri.io \
+    -v /home/omri/rivi-status:/usr/share/nginx/html:ro \
+    nginx
+
+# tiny http/https proxy
+docker run -d -p 6004:8888 \
+    --name tinyproxy \
+    -e VIRTUAL_HOST=api.omri.io \
+    -e LETSENCRYPT_HOST=api.omri.io \
+    -e LETSENCRYPT_EMAIL=omri@omri.io \
+    dtgilles/tinyproxy \
+    -Allow           172.17.0.2 \
+    -ReverseOnly     Yes \
+    -ReverseMagic    Yes \
+    -ReversePath     '"/rivi/"    "http://52.58.226.190:7180/"'
