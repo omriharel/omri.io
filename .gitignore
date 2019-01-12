@@ -1,8 +1,6 @@
-# ghost stuff
-ghost-data/apps
-ghost-data/data
-ghost-data/images
-ghost-data/themes
+# ghost db file
+ghost-data/data/ghost.db
 
 # box files
 box/files
+box/config/droppy.pid

@@ -4,5 +4,4 @@ docker stop landing && docker rm landing
 docker stop ghost && docker rm ghost
 docker stop droppy && docker rm droppy
 docker stop mailer && docker rm mailer
-docker stop rivi-status && docker rm rivi-status
 docker stop tinyproxy && docker rm tinyproxy
